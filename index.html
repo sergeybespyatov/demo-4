@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link href="https://vjs.zencdn.net/7.20.2/video-js.css?_v=20220909184122" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220909184122">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<div class="preloader">
+		<div class="preloader__wrapper">
+			<div class="preloader__dody">
+				<img src="img/icons/loading.gif" alt="loading">
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+
+		<!-- 
+		Header
+		Шапка 
+		-->
+		<header class="header">
+			<div class="header__wrapper">
+				<div class="header__row">
+					<div class="header__item">
+						<div class="logo">
+							<a href="#">
+								<div class="logo__body">
+									<div class="logo__name">DubaiRealty</div>
+									<span class="logo__name-sm">Real Estate</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="header__item">
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li><a href="#">Buy</a>
+										<ul>
+											<li><a href="#">Category number one </a></li>
+											<li><a href="#">Apartments in Dubai</a></li>
+											<li><a href="#">Category number twenty five</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">About</a>
+										<ul>
+											<li><a href="#">Category number one </a></li>
+											<li><a href="#">Apartments in Dubai</a></li>
+											<li><a href="#">Category number twenty five</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Contact</a></li>
+								</ul>
+							</nav>
+							<div class="menu__footer">
+								<div class="menu__footer-btn"></div>
+								<div class="menu__footer-phone"></div>
+								<div class="menu__footer-language"></div>
+							</div>
+						</div>
+						<div data-da=".menu__footer-btn,767.98" class="header__button">
+							<button data-popup="#popupConsultation" type="button" class="btn">Book a consultation</button>
+						</div>
+					</div>
+					<div class="header__item">
+						<div data-da=".menu__footer-language,767.98" class="language-selection">
+							<a href="#" class="language-selection__item active">en</a>
+							<a href="#" class="language-selection__item">ru</a>
+						</div>
+						<div data-da=".menu__footer-phone,767.98" class="phone">+7 (212) 674-25-10</div>
+						<button type="button" class="icon-menu"><span></span></button>
+					</div>
+
+				</div>
+			</div>
+		</header>
+		<main class="page">
+
+			<!-- 
+			Main screen
+			Первый экран
+			 -->
+			<div class="main-screen">
+				<div class="main-slider">
+					<!-- ================= -->
+					<div class="main-slider__headline">
+						<div class="main-screen__container">
+							<div class="heading _text-shadow">
+								<p>Lorem ipsum</p>
+								<h1 class="main-title">Welcome home<br> <span>to</span> luxury</h1>
+								<button data-popup="#popupConsultation" type="button" class="heading__button _text-shadow _arrow">Book a consultation</button>
+							</div>
+						</div>
+					</div>
+					<!-- ================= -->
+					<div class="main-slider__slider slider-main">
+						<div class="slider-main__swiper">
+
+							<div class="slider-main__slide image-ibgn">
+								<picture><source srcset="img/slider1.webp" type="image/webp"><img src="img/slider1.jpg" alt="slider1"></picture>
+							</div>
+							<div class="slider-main__slide image-ibgn">
+								<picture><source srcset="img/slider2.webp" type="image/webp"><img src="img/slider2.jpg" alt="slider2"></picture>
+							</div>
+							<div class="slider-main__slide image-ibgn">
+								<picture><source srcset="img/slider3.webp" type="image/webp"><img src="img/slider3.jpg" alt="slider3"></picture>
+							</div>
+						</div>
+					</div>
+					<!-- ================= -->
+					<div class="slide-counter">
+						<div class="slide-counter__body"></div>
+					</div>
+					<!-- ================= -->
+					<div class="soc-bar">
+						<div class="soc-bar__item">
+							<a href="#" class="soc-bar__icon _icon-f"></a>
+						</div>
+						<div class="soc-bar__item">
+							<a href="#" class="soc-bar__icon _icon-i"></a>
+						</div>
+						<div class="soc-bar__item">
+							<a href="#" class="soc-bar__icon _icon-in"></a>
+						</div>
+						<div class="soc-bar__item">
+							<a href="#" class="soc-bar__icon _icon-t"></a>
+						</div>
+						<div class="soc-bar__item">
+							<a href="#" class="soc-bar__icon _icon-y"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 
+			Latest projects 
+			Последнии проэкты 
+			-->
+			<div class="latest-projects">
+				<div class="latest-projects__header projects-header">
+					<div class="projects-header__container">
+						<div class="projects-header__body">
+							<div class="projects-header__item">
+								<h2 class="latest-projects__title">Latest projects</h2>
+							</div>
+							<div class="projects-header__item">
+								<div class="projects-header__filter">
+									<button data-filter="all" type="button" class="filter-button filter-item active">All</button>
+									<button data-filter="building" type="button" class="filter-button filter-item">Building</button>
+									<button data-filter="interior" type="button" class="filter-button filter-item">Interior</button>
+									<a href="#" class="_viev-more">View all projects</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- projects-header -->
+				<div class="latest-projects__body">
+					<!-- Слайдер последнии проэкты -->
+					<div class="latest-projects__slider">
+						<div class="latest-projects__swiper">
+							<!-- 1 -->
+							<div class="latest-projects__slide slide-ibg slide-filter building">
+								<picture><source srcset="img/building1.webp" type="image/webp"><img src="img/building1.jpg" alt="building"></picture>
+								<!-- Вид объекта -->
+								<div class="type-object">Villas</div>
+								<!-- hover elem -->
+								<div class="card-cover">
+									<div class="card-cover__body">
+										<div class="card-cover__title">Dubai</div>
+										<div class="card-cover__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
+										</div>
+										<div class="card-cover__footer">
+											<a href="#" class="card-cover__more _arrow">See project</a>
+										</div>
+									</div>
+								</div>
+								<!-- hover elem -->
+							</div>
+							<!-- 2 -->
+							<div class="latest-projects__slide slide-ibg slide-filter interior">
+								<picture><source srcset="img/interior1.webp" type="image/webp"><img src="img/interior1.jpg" alt="interior"></picture>
+								<div class="type-object">Houses</div>
+								<div class="card-cover">
+									<div class="card-cover__body">
+										<div class="card-cover__title">Dubai</div>
+										<div class="card-cover__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
+										</div>
+										<div class="card-cover__footer">
+											<a href="#" class="card-cover__more _arrow">See project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 3 -->
+							<div class="latest-projects__slide slide-ibg slide-filter building">
+								<picture><source srcset="img/building2.webp" type="image/webp"><img src="img/building2.jpg" alt="building"></picture>
+								<div class="type-object">Villas</div>
+								<div class="card-cover">
+									<div class="card-cover__body">
+										<div class="card-cover__title">Dubai</div>
+										<div class="card-cover__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
+										</div>
+										<div class="card-cover__footer">
+											<a href="#" class="card-cover__more _arrow">See project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 4 -->
+							<div class="latest-projects__slide slide-ibg slide-filter interior">
+								<picture><source srcset="img/interior2.webp" type="image/webp"><img src="img/interior2.jpg" alt="interior"></picture>
+								<div class="type-object">Houses</div>
+								<div class="card-cover">
+									<div class="card-cover__body">
+										<div class="card-cover__title">Dubai</div>
+										<div class="card-cover__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
+										</div>
+										<div class="card-cover__footer">
+											<a href="#" class="card-cover__more _arrow">See project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 5 -->
+							<div class="latest-projects__slide slide-ibg slide-filter building">
+								<picture><source srcset="img/building3.webp" type="image/webp"><img src="img/building3.jpg" alt="building"></picture>
+								<div class="type-object">Villas</div>
+								<div class="card-cover">
+									<div class="card-cover__body">
+										<div class="card-cover__title">Dubai</div>
+										<div class="card-cover__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
+										</div>
+										<div class="card-cover__footer">
+											<a href="#" class="card-cover__more _arrow">See project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 6 -->
+							<div class="latest-projects__slide slide-ibg slide-filter interior">
+								<picture><source srcset="img/interior3.webp" type="image/webp"><img src="img/interior3.jpg" alt="interior"></picture>
+								<div class="type-object">Houses</div>
+								<div class="card-cover">
+									<div class="card-cover__body">
+										<div class="card-cover__title">Dubai</div>
+										<div class="card-cover__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
+										</div>
+										<div class="card-cover__footer">
+											<a href="#" class="card-cover__more _arrow">See project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 7 -->
+							<div class="latest-projects__slide slide-ibg slide-filter building">
+								<picture><source srcset="img/building4.webp" type="image/webp"><img src="img/building4.jpg" alt="building"></picture>
+								<div class="type-object">Villas</div>
+								<div class="card-cover">
+									<div class="card-cover__body">
+										<div class="card-cover__title">Dubai</div>
+										<div class="card-cover__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
+										</div>
+										<div class="card-cover__footer">
+											<a href="#" class="card-cover__more _arrow">See project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 8 -->
+							<div class="latest-projects__slide slide-ibg slide-filter interior">
+								<picture><source srcset="img/interior4.webp" type="image/webp"><img src="img/interior4.jpg" alt="interior"></picture>
+								<div class="type-object">Houses</div>
+								<div class="card-cover">
+									<div class="card-cover__body">
+										<div class="card-cover__title">Dubai</div>
+										<div class="card-cover__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
+										</div>
+										<div class="card-cover__footer">
+											<a href="#" class="card-cover__more _arrow">See project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 9 -->
+							<div class="latest-projects__slide slide-ibg slide-filter building">
+								<picture><source srcset="img/building5.webp" type="image/webp"><img src="img/building5.jpg" alt="building"></picture>
+								<div class="type-object">Villas</div>
+								<div class="card-cover">
+									<div class="card-cover__body">
+										<div class="card-cover__title">Dubai</div>
+										<div class="card-cover__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
+										</div>
+										<div class="card-cover__footer">
+											<a href="#" class="card-cover__more _arrow">See project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 10 -->
+							<div class="latest-projects__slide slide-ibg slide-filter interior">
+								<picture><source srcset="img/interior5.webp" type="image/webp"><img src="img/interior5.jpg" alt="interior"></picture>
+								<div class="type-object">Houses</div>
+								<div class="card-cover">
+									<div class="card-cover__body">
+										<div class="card-cover__title">Dubai</div>
+										<div class="card-cover__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
+										</div>
+										<div class="card-cover__footer">
+											<a href="#" class="card-cover__more _arrow">See project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 11 -->
+							<div class="latest-projects__slide slide-ibg slide-filter building">
+								<picture><source srcset="img/building6.webp" type="image/webp"><img src="img/building6.jpg" alt="building"></picture>
+								<div class="type-object">Villas</div>
+								<div class="card-cover">
+									<div class="card-cover__body">
+										<div class="card-cover__title">Dubai</div>
+										<div class="card-cover__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
+										</div>
+										<div class="card-cover__footer">
+											<a href="#" class="card-cover__more _arrow">See project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 12 -->
+							<div class="latest-projects__slide slide-ibg slide-filter building">
+								<picture><source srcset="img/building7.webp" type="image/webp"><img src="img/building7.jpg" alt="building"></picture>
+								<div class="type-object">Houses</div>
+								<div class="card-cover">
+									<div class="card-cover__body">
+										<div class="card-cover__title">Dubai</div>
+										<div class="card-cover__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
+										</div>
+										<div class="card-cover__footer">
+											<a href="#" class="card-cover__more _arrow">See project</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--  -->
+						</div>
+					</div>
+					<div class="latest-projects__pagination"></div>
+				</div> <!-- latest-projects__body -->
+			</div> <!-- latest-projects -->
+
+			<!-- 
+			Оur expertise
+			Наш опыт
+			 -->
+			<div class="our-expertise">
+				<div class="our-expertise__body">
+					<div class="our-expertise__heading">
+						<div class="our-expertise__sub-title _sub-title">Our expertise</div>
+						<h2 class="our-expertise__title _title-h2">"The best apartment in Dubai" we will find your dream</h2>
+					</div>
+					<div class="our-expertise__text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh massa, euismod ut libero id, blandit posuere augue. Morbi porta volutpat diam egestas ultrices. Phasellus tempus fringilla neque, nec viverra orci tristique vel. In efficitur vehicula magna, varius pellentesque nisl vehicula vel.</p>
+						<p>Aenean vel sem ac elit commodo finibus in nec massa. Nulla facilisi. Nulla vestibulum venenatis sollicitudin. Etiam auctor mollis justo eu tincidunt. Aliquam varius varius tortor. Cras id venenatis sem. Quisque ut risus ex. Sed et tempor massa.</p>
+						<p> Praesent ac eros hendrerit, congue justo ac, molestie urna. Fusce nec neque vitae dolor dapibus elementum. Maecenas nec orci quis sem condimentum dapibus varius a lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Видео блок -->
+			<div class="video-section">
+				<div class="video-section__body">
+					<video id="my-video" class="video-js" controls preload="auto" poster="img/vvv.jpg" data-setup="{}">
+						<source src="img/Villa.mp4" type="video/mp4" />
+						<source src="img/Villa.webm" type="video/webm" />
+						<source src="img/Villa.avi" type="video/avi" />
+					</video>
+				</div>
+			</div>
+
+			<div class="fifth-block-from-top fifth-block">
+				<div class="fifth-block__container">
+					<div class="fifth-block__body">
+						<!-- Цитата -->
+						<div class="fifth-block__item">
+							<div class="quotes">
+								<p>“Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.” <span>— Mary Kay Ash</span></p>
+							</div>
+						</div>
+						<!-- Галерея -->
+						<div class="fifth-block__item gallery">
+							<div class="gallery__body">
+								<div class="gallery__slider">
+									<div class="gallery__swiper">
+										<!-- 1 -->
+										<div class="gallery__slide slide">
+											<div class="slide__img slide__img-ibg">
+												<picture><source srcset="img/gallery1.webp" type="image/webp"><img src="img/gallery1.jpg" alt="gallery"></picture>
+											</div>
+											<div class="slide__trxt">
+												<p>Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra consequat. Nunc in venenatis orci.</p>
+											</div>
+										</div>
+										<!-- 2 -->
+										<div class="gallery__slide slide">
+											<div class="slide__img slide__img-ibg">
+												<picture><source srcset="img/gallery2.webp" type="image/webp"><img src="img/gallery2.jpg" alt="gallery"></picture>
+											</div>
+											<div class="slide__trxt">
+												<p>Vivamus non diam vel lorem efficitur mattis in gravida ante. Ut ullamcorper dapibus ante, eu tincidunt orci feugiat vel. Curabitur eget lectus lectus. Pellentesque malesuada, felis at accumsan interdum, nisl mi fermentum est, eu suscipit dui lorem a dui. Aliquam rhoncus risus in leo vestibulum efficitur. Suspendisse tortor quam, faucibus a lacinia a, bibendum vitae quam. Suspen disse et metus et orci rutrum dictum eu eu nibh. Suspendisse blandit in diam in rhoncus. Nam volutpat hendrerit enim, sed aliquet quam gravida at. Nullam dictum sagittis nisi, eu porta sem mollis eu. Nulla faucibus sed ipsum sed sodales. Curabitur varius iaculis felis, in aliquet sem suscipit quis. Ut vulputate, magna ac bibendum elementum, nulla magna tincidunt urna, a venenatis dolor arcu sed leo. </p>
+											</div>
+										</div>
+										<!-- 3 -->
+										<div class="gallery__slide slide">
+											<div class="slide__img slide__img-ibg">
+												<picture><source srcset="img/gallery2.webp" type="image/webp"><img src="img/gallery2.jpg" alt="gallery"></picture>
+											</div>
+											<div class="slide__trxt">
+												<p>Vivamus non diam vel lorem efficitur mattis in gravida ante. Ut ullamcorper dapibus ante, eu tincidunt orci feugiat vel. Curabitur eget lectus lectus. Pellentesque malesuada, felis at accumsan interdum, nisl mi fermentum est, eu suscipit dui lorem a dui. Aliquam rhoncus risus in leo vestibulum efficitur. Suspendisse tortor quam, faucibus a lacinia a, bibendum vitae quam. Suspen disse et metus et orci rutrum dictum eu eu nibh. Suspendisse blandit in diam in rhoncus. Nam volutpat hendrerit enim, sed aliquet quam gravida at. Nullam dictum sagittis nisi, eu porta sem mollis eu. Nulla faucibus sed ipsum sed sodales. Curabitur varius iaculis felis, in aliquet sem suscipit quis. Ut vulputate, magna ac bibendum elementum, nulla magna tincidunt urna, a venenatis dolor arcu sed leo. </p>
+											</div>
+										</div>
+										<!--  -->
+									</div>
+								</div>
+								<div class="about__more">
+									<button type="button" class="more__item more__item_next"></button>
+									<button type="button" class="more__item more__item_prev"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 
+			Сontact us block
+			Блок контактов
+			 -->
+			<div class="contact-us-block contact-us-block-ibg">
+				<picture><source srcset="img/contact-us-bg.webp" type="image/webp"><img src="img/contact-us-bg.jpg" alt="Bg image"></picture>
+				<div class="contact-us-block__body contact-us">
+					<div class="contact-us-block__content">
+						<form action="#" class="contact-us-block__form form-contact">
+							<div class="form-contact__sub-title _sub-title">Do you have any questions?</div>
+							<div class="form-contact__title">Contact us</div>
+							<div class="form-contact__item">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Enter your mail" class="form-contact__input">
+								<button type="button" class="form-contact__button">Send</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<!-- 
+			Useful articles
+			Полезные статьи
+			 -->
+			<div class="useful-articles">
+				<div class="useful-articles__container">
+					<div class="useful-articles__body articles">
+						<div class="articles__heading">
+							<h2 class="articles__title _title-h2">Useful articles</h2>
+							<a href="#" class="articles__more _viev-more">View all articles</a>
+						</div>
+						<div class="articles__body">
+							<!-- 1 -->
+							<div class="articles__item article">
+								<div class="article__image article-ibg">
+									<picture><source srcset="img/articles1.webp" type="image/webp"><img src="img/articles1.jpg" alt="article"></picture>
+									<h3 class="article__title">Discover Architecture</h3>
+								</div>
+
+								<div class="article__cover">
+									<div class="article__meta-data">
+										<span>Jule</span><span>03,</span><span>2022</span>
+									</div>
+									<h3 class="article__title">Discover Architecture</h3>
+									<div class="article__text">
+										<p>Projects for many large domestic and foreign corporations, enterprises in many elds such</p>
+									</div>
+									<a href="#" class="article__more _arrow">Learn more</a>
+								</div>
+							</div>
+							<!-- 2 -->
+							<div class="articles__item article">
+								<div class="article__image article-ibg">
+									<picture><source srcset="img/articles2.webp" type="image/webp"><img src="img/articles2.jpg" alt="article"></picture>
+									<h3 class="article__title">Discover Architecture</h3>
+								</div>
+								<div class="article__cover">
+									<div class="article__meta-data">
+										<span>Jule</span><span>03,</span><span>2022</span>
+									</div>
+									<h3 class="article__title">Discover Architecture</h3>
+									<div class="article__text">
+										<p>Projects for many large domestic and foreign corporations, enterprises in many elds such</p>
+									</div>
+									<a href="#" class="article__more _arrow">Learn more</a>
+								</div>
+							</div>
+							<!-- 3 -->
+							<div class="articles__item article">
+								<div class="article__image article-ibg">
+									<picture><source srcset="img/articles3.webp" type="image/webp"><img src="img/articles3.jpg" alt="article"></picture>
+									<h3 class="article__title">Discover Architecture</h3>
+								</div>
+								<div class="article__cover">
+									<div class="article__meta-data">
+										<span>Jule</span><span>03,</span><span>2022</span>
+									</div>
+									<h3 class="article__title">Discover Architecture</h3>
+									<div class="article__text">
+										<p>Projects for many large domestic and foreign corporations, enterprises in many elds such</p>
+									</div>
+									<a href="#" class="article__more _arrow">Learn more</a>
+								</div>
+							</div>
+							<!--  -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 
+			Comment
+			Комментарии
+			 -->
+			<div class="comment">
+				<div class="comment__container">
+					<div class="comment__body">
+						<div class="comment__slider">
+							<div class="comment__swiper">
+								<!-- 1 -->
+								<div class="comment__slide">
+									<div class="comment__avatar avatar-ibg">
+										<picture><source srcset="img/avatar1.webp" type="image/webp"><img src="img/avatar1.jpg" alt="avatar"></picture>
+									</div>
+									<div class="comment__quotes comment__quotes-ibg">
+										<img src="img/quotes.svg" alt="quotes">
+									</div>
+									<div class="comment__slide-body">
+										<div class="comment__name">Paul</div>
+										<div class="comment__employment">Owner in <span>Paul.com</span></div>
+										<div class="comment__content">
+											Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.
+										</div>
+									</div>
+								</div> <!-- comment__slide -->
+								<!-- 2 -->
+								<div class="comment__slide">
+									<div class="comment__avatar avatar-ibg">
+										<picture><source srcset="img/avatar2.webp" type="image/webp"><img src="img/avatar2.jpg" alt="avatar"></picture>
+									</div>
+									<div class="comment__quotes comment__quotes-ibg">
+										<img src="img/quotes.svg" alt="quotes">
+									</div>
+									<div class="comment__slide-body">
+										<div class="comment__name">Robert</div>
+										<div class="comment__employment">Founder in <span>Apple inc.</span></div>
+										<div class="comment__content">
+											Founded in 2007, Sparch is specializing in providing innovative services such as website design, brand identity and marketing
+										</div>
+									</div>
+								</div>
+								<!-- 3 -->
+								<div class="comment__slide">
+									<div class="comment__avatar avatar-ibg">
+										<picture><source srcset="img/avatar1.webp" type="image/webp"><img src="img/avatar1.jpg" alt="avatar"></picture>
+									</div>
+									<div class="comment__quotes comment__quotes-ibg">
+										<img src="img/quotes.svg" alt="quotes">
+									</div>
+									<div class="comment__slide-body">
+										<div class="comment__name">Paul</div>
+										<div class="comment__employment">Owner in <span>Paul.com</span></div>
+										<div class="comment__content">
+											Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.
+										</div>
+									</div>
+								</div>
+								<!-- 4 -->
+								<div class="comment__slide">
+									<div class="comment__avatar avatar-ibg">
+										<picture><source srcset="img/avatar2.webp" type="image/webp"><img src="img/avatar2.jpg" alt="avatar"></picture>
+									</div>
+									<div class="comment__quotes comment__quotes-ibg">
+										<img src="img/quotes.svg" alt="quotes">
+									</div>
+									<div class="comment__slide-body">
+										<div class="comment__name">Robert</div>
+										<div class="comment__employment">Founder in <span>Apple inc.</span></div>
+										<div class="comment__content">
+											Founded in 2007, Sparch is specializing in providing innovative services such as website design, brand identity and marketing.
+										</div>
+									</div>
+								</div>
+								<!--  -->
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="comment__pagination"></div>
+			</div>
+
+			<!-- 
+			faq
+			Часто задоваемые вопросы
+			 -->
+			<div class="faq">
+				<div class="faq__container">
+					<div class="faq__heading">
+						<h2 class="_title-h2">FAQ</h2>
+					</div>
+					<div class="faq__body">
+						<div data-spollers data-one-spoller class="spollers">
+							<!-- 1 -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">The largest and oldest Quotations Page on the Web with about 30 categories</button>
+								<div class="spollers__body">
+									Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra consequat. Nunc in venenatis orci.
+								</div>
+							</div>
+							<!-- 2 -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">A huge collection of inspirational quotes, thoughts of greatest minds in history</button>
+								<div class="spollers__body">
+									Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra consequat. Nunc in venenatis orci.
+								</div>
+							</div>
+							<!-- 3 -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Quotations from the great works of literature</button>
+								<div class="spollers__body">
+									Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra consequat. Nunc in venenatis orci.
+								</div>
+							</div>
+							<!-- 4 -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Read quotes and sayings from famous people in history</button>
+								<div class="spollers__body">
+									Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra consequat. Nunc in venenatis orci.
+								</div>
+							</div>
+							<!-- 5 -->
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">Collected quotes from Albert Einstein</button>
+								<div class="spollers__body">
+									Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra consequat. Nunc in venenatis orci.
+								</div>
+							</div>
+							<!--  -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</main>
+		<!-- 
+		Footer
+		Подвал 
+		-->
+		<footer class="footer">
+			<div class="footer__body">
+				<div class="footer__logo">
+					<div class="logo">
+						<a href="#">
+							<div class="logo__body">
+								<div class="logo__name">DubaiRealty</div>
+								<span class="logo__name-sm">Real Estate</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div data-spollers="767.98,max" class="spollers">
+
+					<div class="spollers__item">
+						<button type="button" data-spoller class="spollers__title spollers__title-arrow">Buy</button>
+						<div class="spollers__body">
+							<ul>
+								<li><a href="#">Apartment in Dubai</a></li>
+								<li><a href="#">House in Dubai</a></li>
+								<li><a href="#">Apartments in Dubai</a></li>
+								<li><a href="#">Loft in Dubai</a></li>
+								<li><a href="#">Penthouse in Dubai</a></li>
+								<li><a href="#">Villa in Dubai</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="spollers__item">
+						<button type="button" data-spoller class="spollers__title spollers__title-arrow">Services</button>
+						<div class="spollers__body">
+							<ul>
+								<li><a href="#">Property management in Dubai, UAE</a></li>
+								<li><a href="#">Sell ​​property in Dubai, UAE</a></li>
+								<li><a href="#">Rent property in Dubai, UAE</a></li>
+								<li><a href="#">Investments in Dubai, UAE</a></li>
+								<li><a href="#">Real estate for cryptocurrency in Dubai</a></li>
+								<li><a href="#">Moving to Dubai, UAE</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="spollers__item">
+						<button type="button" data-spoller class="spollers__title spollers__title-arrow">Information</button>
+						<div class="spollers__body">
+							<ul>
+								<li><a href="#">Video</a></li>
+								<li><a href="#">Podcasts</a></li>
+								<li><a href="#">Laws</a></li>
+								<li><a href="#">Questions and answers</a></li>
+								<li><a href="#">Books</a></li>
+								<li><a href="#">Articles</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="spollers__item">
+						<button type="button" data-spoller class="spollers__title spollers__title-arrow">About company</button>
+						<div class="spollers__body">
+							<ul>
+								<li><a href="#">Jobs</a></li>
+								<li><a href="#">Story</a></li>
+								<li><a href="#">Licenses</a></li>
+								<li><a href="#">Why are we</a></li>
+								<li><a href="#">Real estate agency</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="spollers__item">
+						<div class="spollers__title footer-contacts">Contact</div>
+						<div class="spollers__body footer-contacts">
+							<ul>
+								<li>964 Worthington Drive<br> Dubai, UAE</li>
+								<li><a href="#">dubairealty@mail.com</a></li>
+							</ul>
+							<button data-popup="#popupConsultation" type="button" class="footer-btn btn">Book a consultation</button>
+						</div>
+					</div>
+
+				</div> <!-- spollers -->
+			</div> <!-- footer__body -->
+			<div class="footer__bottom-bar bottom-bar">
+				<div class="bottom-bar__item">
+					<span>Copyright © 2022 Dubai Realty</span>
+				</div>
+				<div class="bottom-bar__item">
+					<div class="soc-bar">
+						<div class="soc-bar__item">
+							<a href="#" class="soc-bar__icon _icon-f"></a>
+						</div>
+						<div class="soc-bar__item">
+							<a href="#" class="soc-bar__icon _icon-i"></a>
+						</div>
+						<div class="soc-bar__item">
+							<a href="#" class="soc-bar__icon _icon-in"></a>
+						</div>
+						<div class="soc-bar__item">
+							<a href="#" class="soc-bar__icon _icon-t"></a>
+						</div>
+						<div class="soc-bar__item">
+							<a href="#" class="soc-bar__icon _icon-y"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- 
+	Popup
+	Попап
+	-->
+	<div id="popupConsultation" aria-hidden="true" class="popup consultation">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="close">
+					<button data-close type="button" class="popup__close"></button>
+				</div>
+				<div class="consultation__body">
+					<form action="#" class="consultation-form">
+						<div class="form-title consultation-form__title">Leave your contacts</div>
+						<div class="consultation-form__sub-title">we will contact you within three hours</div>
+						<div class="form-item">
+							<input autocomplete="off" type="text" name="form[]" placeholder="Name" class="input">
+						</div>
+						<div class="form-item">
+							<input autocomplete="off" type="text" name="form[]" placeholder="Phone" class="input tel">
+						</div>
+						<div class="form-item">
+							<button type="button" name="form[]" class="btn form-btn">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+	<script>
+		// 2. Этот код загружает код API Iframe Player API асинхронно.
+		var tag = document.createElement('script');
+
+		tag.src = 'https://www.youtube.com/iframe_api';
+		var firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+		// 3. Эта функция создает <iframe> (и игрок на YouTube)
+		// после загрузки кода API.
+		var player;
+
+		function onYouTubeIframeAPIReady() {
+			player = new YT.Player('player', {
+				videoId: 'MoleE3HkTE0',
+				playerVars: {
+					'controls': 0,
+					'modestbranding': 0,
+					'rel': 0,
+					'showinfo': 0,
+					'playsinline': 1,
+					'end': 30,
+				},
+				events: {
+					'onReady': onPlayerReady,
+					'onStateChange': onPlayerStateChange,
+				},
+			});
+		}
+
+		// 4. API будет называть эту функцию, когда видеоплеер будет готов.
+		function onPlayerReady(event) {
+			event.target.playVideo();
+		}
+
+		// 5. API вызывает эту функцию, когда состояние игрока меняется.
+		// функция указывает, что при воспроизведении видео (State = 1),
+		// игрок должен играть шесть секунд, а затем остановиться.
+		var done = false;
+
+		function onPlayerStateChange(event) {
+			if (event.data == YT.PlayerState.PLAYING && !done) {
+				setTimeout(stopVideo, 6000);
+				done = true;
+			}
+		}
+
+		function stopVideo() {
+			player.stopVideo();
+		}
+	</script>
+	<script src="https://vjs.zencdn.net/7.20.2/video.min.js?_v=20220909184122"></script>
+	<script src="js/app.min.js?_v=20220909184122"></script>
+</body>
+
+</html>
